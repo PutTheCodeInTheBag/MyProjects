@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NOBODY's Projects</title>
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+
+<body>
+
+<div class="header"> <h1><strong>NOBODY</strong> made these projects!</h1></div>
+<hr>
+
+<div class="TimeConverter">
+
+<h2>
+    Time Converter
+</h2>
+<p>Time converter is a project that transforms days to seconds</p>
+<input type="number" id="days" placeholder="Days Amount" required><br>
+<button type="button" id="TimeConverterButton" onclick="daysToSeconds()">Submit</button>
+<p>Output: <p id="TCOut"></p></p>
+
+
+<p>Original Project Code</p>
+
+<div class="Code">
+    <p>
+
+        import java.util.Scanner;
+    <br>
+    <br>public class Program {
+    <br>public static void main(String[] args) {
+    <br>Scanner scanner = new Scanner(System.in);
+    <br>int days = scanner.nextInt();
+    <br>
+    <br>int seconds = days*24*60*60;
+    <br>
+    <br>System.out.println(seconds);
+    <br>
+    <br>    
+    <br>        }
+    <br>    }
+    </p>
+
+
+</div>
+</div>
+
+<hr>
+
+<div class="loanCalculator">
+
+    <h2>Loan Calculator</h2>
+
+    <p>Another of Sololearn java course challenges.
+        Loan Calculator is a project that ask you to calculate the tax that you will need to pay over a loan
+         (Without decimals!).
+    </p>
+
+
+    <input type="number" id="Loan" placeholder="Loan" required>
+    <input type="number" id="Tax" placeholder="Tax (1-100)" required>
+    <input type="number" id="Months" placeholder="Months" required>
+<br><button type="button" id="LCButton" onclick="taxCalculator()">Submit</button>
+<p>Output: </p><p id="LCOut"></p>
+
+<p> Original Project Code</p>
+
+<div class="Code">
+
+    <p>import java.util.Scanner;
+<br> public class Program
+<br>        {
+<br>        public static void main(String[] args) {
+<br>        Scanner scanner = new Scanner(System.in);
+<br>    int amount = scanner.nextInt();
+<br>    
+<br>int tax = 10;
+<br>int time = 3;
+<br>while(time>0){
+<br> amount = amount-(amount/tax);          
+<br>time--;
+<br>}
+<br>System.out.println(amount);
+<br>
+<br>
+<br>
+<br>}
+<br>}
+
+       </p>
+
+</div>
+</div>
+
+
+
+<hr>
+    
+</body>
+
+</html>
+<script src="projects.js"></script>

@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&family=Zen+Old+Mincho&display=swap');
+
+body {
+    padding: 2%;
+    font-size: 20%;
+     margin: 2% 6%;
+    background-color: #123456;
+}
+.header {
+    text-align: center;
+    font-size: 2vw;
+    font-family: Bebas Neue;
+}
+
+ h2{
+font-size: 4.5vw;
+font-family: Zen Kurenaido;
+text-align: start;
+}
+ p{
+text-align: start;
+font-size: 3.25vw;
+font-family: Zen Old Mincho;
+}
+
+ button{
+margin: 2%;
+box-shadow: 0 2px gray;
+border-style: solid;
+border-radius:0% 20% ;
+border: 2px;
+background-color: rgb(255, 230, 0);
+width: 18%;
+font-size: 15%;
+}
+button:active {
+background-color: green;
+box-shadow: 0 1px darkgray;
+transform:translateY(1px);
+}
+button:hover { 
+ opacity: 0.6;
+
+}
+input {
+font-size: 10%;
+width: 20%;
+background: mintcream;
+margin: auto;
+border: 1%;
+border-radius: 12%;
+}
+.Code p {
+
+font-size: 2.25vw;
+
+}
+.Code {
+
+background-color: lightgrey;
+border-radius: 4%;
+margin: auto;
+width: auto;
+padding: 2%;
+}
+
